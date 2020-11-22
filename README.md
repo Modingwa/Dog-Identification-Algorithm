@@ -6,10 +6,10 @@ This project uses Convolutional Neural Networks (CNN) to build a pipeline that p
 ## Table of contents
 * [Data and Code](#data-and-code)
 * [Phase #1: Face Detection](#phase-1-face-detection)
-* [Phase #2: Dog detection using a  pre-trained VGG-16 and ResNet-152 Models](#phase--2--dog-detection-using-a--pre-trained-vgg-16-and-resnet-152-models)
-* [Phase #3: Create a CNN to Classify Dog Breeds (from Scratch)](#phase--3--create-a-cnn-to-classify-dog-breeds--from-scratch-)
-* [Phase #4: Create a CNN to Classify Dog Breeds (using Transfer Learning)](#phase--4--create-a-cnn-to-classify-dog-breeds--using-transfer-learning-)
-* [Final Phase: Dog identification Algorithm](#final-phase--dog-identification-algorithm)
+* [Phase #2: Dog detection using a  pre-trained VGG-16 and ResNet-152 Models](#phase-2-dog-detection-using-a--pre-trained-vgg-16-and-resnet-152-models)
+* [Phase #3: Create a CNN to Classify Dog Breeds (from Scratch)](#phase-3-create-a-cnn-to-classify-dog-breeds-from-scratch)
+* [Phase #4: Create a CNN to Classify Dog Breeds (using Transfer Learning)](#phase-4-create-a-cnn-to-classify-dog-breeds-using-transfer-learning)
+* [Final Phase: Dog identification Algorithm](#final-phase-dog-identification-algorithm)
 * [Prerequisites](#prerequisites)
 
 ## Data and Code
