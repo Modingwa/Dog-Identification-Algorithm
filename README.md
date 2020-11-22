@@ -5,7 +5,7 @@ This project uses Convolutional Neural Networks (CNN) to build a pipeline that p
 
 ## Table of contents
 * [Data and Code](#data-and-code)
-* [Phase 1: Face Detection](#phase-1--face-detection)
+* [Phase #1: Face Detection](#phase-1--face-detection)
 * [Phase #2: Dog detection using a  pre-trained VGG-16 and ResNet-152 Models](#phase--2--dog-detection-using-a--pre-trained-vgg-16-and-resnet-152-models)
 * [Phase #3: Create a CNN to Classify Dog Breeds (from Scratch)](#phase--3--create-a-cnn-to-classify-dog-breeds--from-scratch-)
 * [Phase #4: Create a CNN to Classify Dog Breeds (using Transfer Learning)](#phase--4--create-a-cnn-to-classify-dog-breeds--using-transfer-learning-)
@@ -18,7 +18,7 @@ The full training and testing dataset is not included in this repository because
 In addition to the data files, the project workspace includes:
 * **dog_app.ipynb** - jupyter notebook that contains the algorithm.
 
-## Phase 1: Face Detection
+## Phase #1: Face Detection
 The first goal of the project was to assess the performance of a given CascadeClassifier face detector. Given an image of human being, the face detector identifies the face and makes a bounding box around the face.
 ![CascadeClassifier Face Detector](face_detector_1.png "CascadeClassifier Face Detector")
 
@@ -60,9 +60,11 @@ Test Accuracy: 79% (662/836)
 In the final phase, I created a dog identification algorithm that accepts a file path to an image and first determines whether the image contains a human, dog, or neither. The algorithm works as follows:
 >if a **dog** is detected in the image, the algorithm returns the predicted breed.
 ![Human output](human_1.png "Human Output")
-if a **human** is detected in the image, the algorithm returns the resembling dog breed.
+
+>if a **human** is detected in the image, the algorithm returns the resembling dog breed.
 ![Dog output](dog_1.png "Dog Output")
-if **neither** is detected in the image, an error message is printed to the user. 
+
+>if **neither** is detected in the image, an error message is printed to the user. 
 
 ## Prerequisites
 * numpy
@@ -75,4 +77,3 @@ if **neither** is detected in the image, an error message is printed to the user
 * os
 
 **Note**: python 3 is needed to run the python scripts.
-
